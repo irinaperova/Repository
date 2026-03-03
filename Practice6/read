@@ -1,0 +1,15 @@
+# read_files.py
+
+file_path = "sample.txt"
+
+with open(file_path, "r", encoding="utf-8") as f:
+    print("Using read():")
+    print(f.read())
+
+with open(file_path, "r", encoding="utf-8") as f:
+    print("\nUsing readline():")
+    print(f.readline())
+    print(f.readline())
+
+with open(file_path, "r", encoding="utf-8") as f:
+    print("\nUsing readlines():")
