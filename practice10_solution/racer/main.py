@@ -114,7 +114,8 @@ def main() -> None:
         enemies = [Car(random_lane_x(50), -120, 50, 90)]
         coins = []
         road_scroll = 0
-        enemy_speed = 6
+        enemy_speed = 10
+        
         dodged = 0
         collected_coins = 0
         game_over = False
